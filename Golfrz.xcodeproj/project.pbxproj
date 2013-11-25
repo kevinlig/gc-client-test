@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C66EDF7D1842C86F00D2F88A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66EDF7C1842C86F00D2F88A /* Foundation.framework */; };
+		C66EDF7F1842C86F00D2F88A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66EDF7E1842C86F00D2F88A /* CoreGraphics.framework */; };
+		C66EDF811842C86F00D2F88A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66EDF801842C86F00D2F88A /* UIKit.framework */; };
+		C66EDF871842C86F00D2F88A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C66EDF851842C86F00D2F88A /* InfoPlist.strings */; };
+		C66EDF891842C86F00D2F88A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C66EDF881842C86F00D2F88A /* main.m */; };
+		C66EDF8D1842C86F00D2F88A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C66EDF8C1842C86F00D2F88A /* AppDelegate.m */; };
+		C66EDF901842C86F00D2F88A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66EDF8E1842C86F00D2F88A /* Main.storyboard */; };
+		C66EDF931842C86F00D2F88A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66EDF921842C86F00D2F88A /* ViewController.m */; };
+		C66EDF951842C86F00D2F88A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66EDF941842C86F00D2F88A /* Images.xcassets */; };
+		C66EDF9C1842C86F00D2F88A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66EDF9B1842C86F00D2F88A /* XCTest.framework */; };
+		C66EDF9D1842C86F00D2F88A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66EDF7C1842C86F00D2F88A /* Foundation.framework */; };
+		C66EDF9E1842C86F00D2F88A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66EDF801842C86F00D2F88A /* UIKit.framework */; };
+		C66EDFA61842C86F00D2F88A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C66EDFA41842C86F00D2F88A /* InfoPlist.strings */; };
+		C66EDFA81842C86F00D2F88A /* GolfrzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C66EDFA71842C86F00D2F88A /* GolfrzTests.m */; };
+		C66EDFB21842C8BA00D2F88A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66EDFB11842C8BA00D2F88A /* CoreLocation.framework */; };
+		C66EDFB41842C8BE00D2F88A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66EDFB31842C8BE00D2F88A /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C66EDF9F1842C86F00D2F88A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C66EDF711842C86F00D2F88A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C66EDF781842C86F00D2F88A;
+			remoteInfo = Golfrz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C66EDF791842C86F00D2F88A /* Golfrz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Golfrz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66EDF7C1842C86F00D2F88A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C66EDF7E1842C86F00D2F88A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C66EDF801842C86F00D2F88A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C66EDF841842C86F00D2F88A /* Golfrz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Golfrz-Info.plist"; sourceTree = "<group>"; };
+		C66EDF861842C86F00D2F88A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C66EDF881842C86F00D2F88A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C66EDF8A1842C86F00D2F88A /* Golfrz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Golfrz-Prefix.pch"; sourceTree = "<group>"; };
+		C66EDF8B1842C86F00D2F88A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C66EDF8C1842C86F00D2F88A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C66EDF8F1842C86F00D2F88A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C66EDF911842C86F00D2F88A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C66EDF921842C86F00D2F88A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C66EDF941842C86F00D2F88A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C66EDF9A1842C86F00D2F88A /* GolfrzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfrzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66EDF9B1842C86F00D2F88A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C66EDFA31842C86F00D2F88A /* GolfrzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GolfrzTests-Info.plist"; sourceTree = "<group>"; };
+		C66EDFA51842C86F00D2F88A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C66EDFA71842C86F00D2F88A /* GolfrzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolfrzTests.m; sourceTree = "<group>"; };
+		C66EDFB11842C8BA00D2F88A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C66EDFB31842C8BE00D2F88A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C66EDF761842C86F00D2F88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66EDFB41842C8BE00D2F88A /* CoreBluetooth.framework in Frameworks */,
+				C66EDFB21842C8BA00D2F88A /* CoreLocation.framework in Frameworks */,
+				C66EDF7F1842C86F00D2F88A /* CoreGraphics.framework in Frameworks */,
+				C66EDF811842C86F00D2F88A /* UIKit.framework in Frameworks */,
+				C66EDF7D1842C86F00D2F88A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66EDF971842C86F00D2F88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66EDF9C1842C86F00D2F88A /* XCTest.framework in Frameworks */,
+				C66EDF9E1842C86F00D2F88A /* UIKit.framework in Frameworks */,
+				C66EDF9D1842C86F00D2F88A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C66EDF701842C86F00D2F88A = {
+			isa = PBXGroup;
+			children = (
+				C66EDF821842C86F00D2F88A /* Golfrz */,
+				C66EDFA11842C86F00D2F88A /* GolfrzTests */,
+				C66EDF7B1842C86F00D2F88A /* Frameworks */,
+				C66EDF7A1842C86F00D2F88A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C66EDF7A1842C86F00D2F88A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C66EDF791842C86F00D2F88A /* Golfrz.app */,
+				C66EDF9A1842C86F00D2F88A /* GolfrzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C66EDF7B1842C86F00D2F88A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C66EDFB31842C8BE00D2F88A /* CoreBluetooth.framework */,
+				C66EDFB11842C8BA00D2F88A /* CoreLocation.framework */,
+				C66EDF7C1842C86F00D2F88A /* Foundation.framework */,
+				C66EDF7E1842C86F00D2F88A /* CoreGraphics.framework */,
+				C66EDF801842C86F00D2F88A /* UIKit.framework */,
+				C66EDF9B1842C86F00D2F88A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C66EDF821842C86F00D2F88A /* Golfrz */ = {
+			isa = PBXGroup;
+			children = (
+				C66EDF8B1842C86F00D2F88A /* AppDelegate.h */,
+				C66EDF8C1842C86F00D2F88A /* AppDelegate.m */,
+				C66EDF8E1842C86F00D2F88A /* Main.storyboard */,
+				C66EDF911842C86F00D2F88A /* ViewController.h */,
+				C66EDF921842C86F00D2F88A /* ViewController.m */,
+				C66EDF941842C86F00D2F88A /* Images.xcassets */,
+				C66EDF831842C86F00D2F88A /* Supporting Files */,
+			);
+			path = Golfrz;
+			sourceTree = "<group>";
+		};
+		C66EDF831842C86F00D2F88A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C66EDF841842C86F00D2F88A /* Golfrz-Info.plist */,
+				C66EDF851842C86F00D2F88A /* InfoPlist.strings */,
+				C66EDF881842C86F00D2F88A /* main.m */,
+				C66EDF8A1842C86F00D2F88A /* Golfrz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C66EDFA11842C86F00D2F88A /* GolfrzTests */ = {
+			isa = PBXGroup;
+			children = (
+				C66EDFA71842C86F00D2F88A /* GolfrzTests.m */,
+				C66EDFA21842C86F00D2F88A /* Supporting Files */,
+			);
+			path = GolfrzTests;
+			sourceTree = "<group>";
+		};
+		C66EDFA21842C86F00D2F88A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C66EDFA31842C86F00D2F88A /* GolfrzTests-Info.plist */,
+				C66EDFA41842C86F00D2F88A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C66EDF781842C86F00D2F88A /* Golfrz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66EDFAB1842C86F00D2F88A /* Build configuration list for PBXNativeTarget "Golfrz" */;
+			buildPhases = (
+				C66EDF751842C86F00D2F88A /* Sources */,
+				C66EDF761842C86F00D2F88A /* Frameworks */,
+				C66EDF771842C86F00D2F88A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Golfrz;
+			productName = Golfrz;
+			productReference = C66EDF791842C86F00D2F88A /* Golfrz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C66EDF991842C86F00D2F88A /* GolfrzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66EDFAE1842C86F00D2F88A /* Build configuration list for PBXNativeTarget "GolfrzTests" */;
+			buildPhases = (
+				C66EDF961842C86F00D2F88A /* Sources */,
+				C66EDF971842C86F00D2F88A /* Frameworks */,
+				C66EDF981842C86F00D2F88A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C66EDFA01842C86F00D2F88A /* PBXTargetDependency */,
+			);
+			name = GolfrzTests;
+			productName = GolfrzTests;
+			productReference = C66EDF9A1842C86F00D2F88A /* GolfrzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C66EDF711842C86F00D2F88A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kevin Li";
+				TargetAttributes = {
+					C66EDF991842C86F00D2F88A = {
+						TestTargetID = C66EDF781842C86F00D2F88A;
+					};
+				};
+			};
+			buildConfigurationList = C66EDF741842C86F00D2F88A /* Build configuration list for PBXProject "Golfrz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C66EDF701842C86F00D2F88A;
+			productRefGroup = C66EDF7A1842C86F00D2F88A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C66EDF781842C86F00D2F88A /* Golfrz */,
+				C66EDF991842C86F00D2F88A /* GolfrzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C66EDF771842C86F00D2F88A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66EDF951842C86F00D2F88A /* Images.xcassets in Resources */,
+				C66EDF871842C86F00D2F88A /* InfoPlist.strings in Resources */,
+				C66EDF901842C86F00D2F88A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66EDF981842C86F00D2F88A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66EDFA61842C86F00D2F88A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C66EDF751842C86F00D2F88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66EDF931842C86F00D2F88A /* ViewController.m in Sources */,
+				C66EDF8D1842C86F00D2F88A /* AppDelegate.m in Sources */,
+				C66EDF891842C86F00D2F88A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66EDF961842C86F00D2F88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66EDFA81842C86F00D2F88A /* GolfrzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C66EDFA01842C86F00D2F88A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C66EDF781842C86F00D2F88A /* Golfrz */;
+			targetProxy = C66EDF9F1842C86F00D2F88A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C66EDF851842C86F00D2F88A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66EDF861842C86F00D2F88A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C66EDF8E1842C86F00D2F88A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66EDF8F1842C86F00D2F88A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C66EDFA41842C86F00D2F88A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66EDFA51842C86F00D2F88A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C66EDFA91842C86F00D2F88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C66EDFAA1842C86F00D2F88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C66EDFAC1842C86F00D2F88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Golfrz/Golfrz-Prefix.pch";
+				INFOPLIST_FILE = "Golfrz/Golfrz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C66EDFAD1842C86F00D2F88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Golfrz/Golfrz-Prefix.pch";
+				INFOPLIST_FILE = "Golfrz/Golfrz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C66EDFAF1842C86F00D2F88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Golfrz.app/Golfrz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Golfrz/Golfrz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GolfrzTests/GolfrzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C66EDFB01842C86F00D2F88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Golfrz.app/Golfrz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Golfrz/Golfrz-Prefix.pch";
+				INFOPLIST_FILE = "GolfrzTests/GolfrzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C66EDF741842C86F00D2F88A /* Build configuration list for PBXProject "Golfrz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66EDFA91842C86F00D2F88A /* Debug */,
+				C66EDFAA1842C86F00D2F88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66EDFAB1842C86F00D2F88A /* Build configuration list for PBXNativeTarget "Golfrz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66EDFAC1842C86F00D2F88A /* Debug */,
+				C66EDFAD1842C86F00D2F88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C66EDFAE1842C86F00D2F88A /* Build configuration list for PBXNativeTarget "GolfrzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66EDFAF1842C86F00D2F88A /* Debug */,
+				C66EDFB01842C86F00D2F88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C66EDF711842C86F00D2F88A /* Project object */;
+}
